@@ -1,0 +1,19 @@
+main {
+
+/*
+ * dwak
+ */
+
+int a,b;
+int c;
+
+input(c);
+a = 10;
+b = (a+5+(3*6*8)*a)*3 - c;
+
+// dumb
+
+output(b);
+
+
+}

@@ -1,0 +1,23 @@
+
+
+main {
+
+int a, b;
+
+input(a,b);
+
+if (a>b) {
+
+output(a);
+
+}
+
+else {
+
+output(b);
+}
+
+
+
+
+}

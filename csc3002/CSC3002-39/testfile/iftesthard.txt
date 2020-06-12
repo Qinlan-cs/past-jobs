@@ -1,0 +1,18 @@
+main {
+
+int a;
+
+input(a);
+
+if( not (a == 10 and a == 5 or a==1) or a == 6) {
+a = 1;
+}
+else{
+a = 2;
+}
+
+//damn it
+
+output(a);
+
+}

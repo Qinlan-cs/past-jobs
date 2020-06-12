@@ -1,0 +1,42 @@
+
+main {
+
+char c[400];
+
+
+input(c);
+
+
+char a,b;
+
+/*
+ * random
+ */
+int x,y;
+
+x = 0;
+y = 0;
+
+while (c[y]!=0) {
+y = y + 1;
+}
+
+y = y - 1;
+
+
+while (c[x]==c[y] and x<y) {
+y = y-1;
+x = x+1;
+}
+
+if (x >= y) {
+output("Is palindrome");
+}
+else {
+output("Is not palindrome");
+}
+
+
+}
+
+
